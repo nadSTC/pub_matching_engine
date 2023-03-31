@@ -8,6 +8,12 @@ A simple matching engine using C++.
 ✅ Stores order fills\
 ✅ Wash trading protection
 
+## Installation
+
+1. Get the code on your local machine.
+2. Compile: `g++ -std=c++17 -stdlib=libc++ -o matching_engine matching_engine.cpp`.
+3. Run: `./matching_engine`
+
 ## Usage
 
 ### Account
