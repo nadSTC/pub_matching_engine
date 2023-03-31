@@ -1,5 +1,5 @@
 # Matching Engine
-A simple matching engine using C++.
+A simple matching engine built in C++.
 
 ## Features
 ✅ FIFO algorithm\
