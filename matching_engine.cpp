@@ -642,6 +642,7 @@ void commander(MessageQueue &message_queue)
 
         if (input_tokens[0] == "exit")
         {
+            message_queue.push("exit");
             break;
         }
 
