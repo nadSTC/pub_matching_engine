@@ -210,10 +210,6 @@ public:
 
         Transaction transaction = {static_cast<int>(transactions.size()) + 1, quantity, price, get_epoch_ms(), buyer, seller, aggressor};
         transactions.push_back(transaction);
-        // accounts[buyer].settled_transactions.push_back(buyer_transaction);
-
-        // Transaction seller_transaction = {static_cast<int>(accounts[seller].settled_transactions.size()) + 1, quantity, price, get_epoch_ms(), buyer, seller, aggressor};
-        // accounts[seller].settled_transactions.push_back(seller_transaction);
     }
 
     void match_order(Order &order, std::map<std::string, Account_Details> &accounts, std::mutex &accounts_mutex, std::vector<Transaction> &transactions, std::mutex &transactions_mutex)
